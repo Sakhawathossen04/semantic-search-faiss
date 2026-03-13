@@ -129,6 +129,7 @@ The embeddings are indexed with FAISS to enable fast similarity search.
 
 A user question is also embedded and compared with all indexed comment embeddings. The top matching results are returned.
 
+
 ## Example query
 
 ```python
