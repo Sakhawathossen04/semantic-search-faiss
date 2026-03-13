@@ -6,7 +6,7 @@ A semantic search engine built with **Hugging Face Datasets**, **Transformers**,
 
 Traditional search usually depends on exact keyword matches. This project takes a different approach by using **semantic search**, where both documents and user queries are converted into dense vector representations called **embeddings**. These embeddings are then indexed with **FAISS** for efficient nearest-neighbor search.
 
-The search engine is built on a dataset of GitHub issues and comments from the 🤗 Datasets repository. Each issue comment is enriched with its related issue title and body, embedded into a vector space, and indexed for fast similarity search.
+The search engine is built on a dataset of GitHub issues and comments from the Datasets repository. Each issue comment is enriched with its related issue title and body, embedded into a vector space, and indexed for fast similarity search.
 
 ## What this project does
 
